@@ -9,18 +9,17 @@
  * @author Maria
  */
 public class Celular {
-    int bateria;
-    int capacidade;
+    Bateria bateria=new Bateria();
     
     
     int mensTexto(){
-        return bateria--;
+        return bateria.quantidade--;
     }
     int ligacao(int tempChamada){
         int temp=tempChamada/5;
-        bateria=bateria-temp;
+        bateria.quantidade=bateria.quantidade-temp;
         
-        return bateria; 
+        return bateria.quantidade;
         
         
     }
