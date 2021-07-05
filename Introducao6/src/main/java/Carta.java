@@ -10,5 +10,6 @@
  */
 public class Carta {
     String naipe;
+    String nome;
     
 }
