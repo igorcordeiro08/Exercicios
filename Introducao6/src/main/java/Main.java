@@ -3,7 +3,7 @@ public class Main {
         Baralho baralho=new Baralho();
         baralho.adicionarCartas();
 
-        baralho.imprimeBaralho(baralho);
+        baralho.imprimeBaralho();
 
 
     }
