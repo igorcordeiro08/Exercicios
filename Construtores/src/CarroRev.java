@@ -7,8 +7,10 @@ public class CarroRev {
     private String combustivel;
     private float preco;
     private int estoque;
+    private boolean multas;
+    private String dono;
+
+    public void listaMultas(){}
 
     public void vende(CarroRev carro){}
-
-    public void mostra_carro(){}
 }

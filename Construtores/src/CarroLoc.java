@@ -13,5 +13,5 @@ public class CarroLoc {
     }
     public void aluga(Carro carro){}
 
-    public void mostra_carro(){}
+
 }
