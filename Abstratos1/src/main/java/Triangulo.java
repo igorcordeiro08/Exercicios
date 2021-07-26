@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Maria
- */
 public class Triangulo extends FormaGeometrica {
     
     float base;
@@ -24,12 +14,10 @@ public class Triangulo extends FormaGeometrica {
         
     }
 
-    @Override
     public float getArea() {
         return this.area;
     }
 
-    @Override
     public float getPerimetro() {
         return this.perimetro;
     }
