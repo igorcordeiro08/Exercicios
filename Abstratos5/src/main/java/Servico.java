@@ -1,7 +1,7 @@
-public class Servico implements Recebivel {
-    private String descricao;
+public class Servico implements Recebivel {    
     private int horas;
     private double precoHora;
+    private String descricao;
 
     public Servico(String descricao,int horas,double precoHora){
         this.descricao=descricao;

@@ -4,7 +4,7 @@ public class ItemVenda implements Recebivel {
     private double precoUnitario;
     
     public ItemVenda(String produto,int quantidade,double precoUnitario){
-        this.produto=produto;
+        this.produto= produto;
         this.quantidade=quantidade;
         this.precoUnitario=precoUnitario;
     }

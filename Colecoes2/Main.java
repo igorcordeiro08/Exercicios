@@ -6,6 +6,7 @@ public class Main {
         pessoas.add("Igor");
         pessoas.add("Joao");
         pessoas.add("Maria");
+        pessoas.add("Maria");
         
         System.out.println(pessoas.toString());
         
@@ -20,6 +21,7 @@ public class Main {
 
         Set<String> tree=new TreeSet<>(dq);
         System.out.println(tree.toString());
+//Ele mostra em ordens diferentes pois as estruturas tem implementações diferentes,
 
 
     }
